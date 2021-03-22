@@ -1,0 +1,150 @@
+:root {
+  --border-radius-base: 6px;
+  --font-size-base: 14px;
+  
+  /* Base colors*/
+  --B000: #fff;
+  --B050: #f7f7fa;
+  --B100: #f2f2f5;
+  --B200: #e5e5ea;
+  --B300: #d9d9d9;
+  --B400: #c5c6c7;
+  --B500: #a6a6a6;
+  --B600: #8e8e93;
+  --B700: #7a7a7a;
+  --B800: #575757;
+  --B900: #272c36;
+
+  /* pallete Hue*/
+  --base-color: #3498ff;
+  --H050: #f2faff;
+  --H100: #cce9ff;
+  --H200: #a6d7ff;
+  --H300: #80c4ff;
+  --H400: #59afff;
+  --H500: var(--base-color);
+  --H600: #2589f5;
+  --H700: #1675e0;
+  --H800: #0a5dc2;
+  --H900: #004299;
+
+  /* spectrum Colors*/
+  --red: #f44336;
+  --orange: #ff9800;
+  --yellow: #ffca28;
+  --green: #4caf50;
+  --cyan: #00bcd4;
+  --blue: #2196f3;
+  --violet: #673ab7;
+
+  /* Sub Colors*/
+  --success-color: #4caf50;
+  --success-light-color: #edfae1;
+  --info-color: #2196f3;
+  --info-light-color: #e9f5fe;
+  --warning-color: #ffb300;
+  --warning-light-color: #fff9e6;
+  --error-color: #f44336;
+  --error-light-color: #fde9ef;
+
+  /* Text Colors*/
+  --link-color: var(--H700);
+  --link-hover-color: var(--H800);
+  --link-active-color: var(--H900);
+  --border-base-color: var(--B300);
+  --base-bg-color: var(--B050);
+  --border-primary-color: var(--H500);
+  --loading-text-color: var(--B800);
+
+  /* Primary Colors*/
+  --primary-color: var(--H500);
+  --primary-bg-color: var(--H050);
+  --primary-border-color: var(--H300);
+
+  /* Settings for Global styles */
+  --body-bg: var(--B000);
+  --text-color: var(--B800);
+  --text-primary-color: var(--H500);
+  --link-hover-decoration: underline;
+  --link-active-decoration: underline;
+  --border-base-color: var(--B300);
+
+  /* **************************
+  ****BUTTON RELATED STYLES****
+  *****************************
+  */
+  --line-height-large:1.375;
+  --line-height-base:1.4285714285714286;
+  --line-height-snall: 1.6666666666666667;
+  --line-height-extra-small: 1.6666666666666667;
+
+  --btn-ripple-bg-color: rgba(0, 0, 0, 0.2);
+  --btn-font-weight: normal;
+  --btn-disabled-opacity: 0.3;
+
+  /*Default*/
+  --btn-default-color: var(--text-color);
+  --btn-default-bg: var(--B050);
+  --btn-default-hover-color: var(--text-color);
+  --btn-default-hover-bg: var(--B200);
+  --btn-default-active-bg: var(--B300);
+  --btn-default-focus-bg: var(--B200);
+  --btn-default-disabled-color: var(--B400);
+  --btn-default-disabled-bg: var(--B050);
+
+  /*Icon color set*/
+  --btn-icon-with-text-bg: var(--B100);
+  --btn-icon-with-text-hover-bg: var(--B300);
+  --btn-icon-with-text-focus-bg: var(--B300);
+  --btn-icon-with-text-active-bg: var(--B400);
+
+  /*Primary Set*/
+  --btn-primary-color: var(--B000);
+  --btn-primary-bg: var(--H500);
+
+  /*Link Button Set*/
+  --btn-link-color: var(--H500);
+
+  /*Subtle Color Set*/
+  --btn-subtle-primary-color: var(--primary-color);
+  --btn-subtle-color: var(--B600);
+  --btn-subtle-hover-color: var(--B000);
+  --btn-subtle-defualt-hover-color: var(--B800);
+  --btn-subtle-hover-bg: var(--B050);
+  --btn-subtle-focus-bg: var(--btn-subtle-hover-bg);
+  --btn-subtle-active-color: var(--B000);
+  --btn-subtle-active-default-color: var(--B900);
+  --btn-subtle-active-default-bg: var(--B200);
+  --btn-subtle-disabled-color: var(--B400);
+
+  /*Ghost Set*/
+  --btn-ghost-color: var(--H500);
+  --btn-ghost-border-color: var(--H500);
+  --btn-ghost-border-width: 1px;
+
+  /*Button Border Radius*/
+  --btn-border-radius-base: var(--border-radius-base);
+  --btn-border-radius-large: var(--border-radius-base);
+  --btn-border-radius-small: var(--border-radius-base);
+
+  /*Button Loading*/
+  --btn-loading-spin-default-diameter: 18px;
+  --btn-loading-spin-xs-diameter: 16px;
+  --btn-loading-spin-ring-wide: 3px;
+  --btn-loading-spin-ring-color: var(--B050);
+  --btn-spin-light-color: var(--B000);
+  --btn-spin-light-invert-color: var(--B500);
+
+
+  /*Ghost BUtton*/
+  --color-dark: #2589f5;
+  --color-darker: #1675e0;
+  --color-even-darker: #0a5dc2;
+  --readable-color: #fff;
+  
+
+  /* **************************
+  ****END OF BUTTON  STYLES****
+  *****************************
+  */
+}

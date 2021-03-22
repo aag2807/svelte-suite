@@ -70,7 +70,7 @@ I will clean & refactor the code once all the components are done.
 - [ ] Panel
 - [ ] Timeline
 - [ ] Tag
-- [ ] List
+- [x] List
 - [ ] Calendar
 - [ ] Carousel
 

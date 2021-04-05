@@ -2,7 +2,7 @@
 ## This was inspired the by React UI component Library rsuite.
 ***
 
-I came across this idea as a side project but it turns out as a fellow lover of Svelte, we dont have enough UI libraries.
+I came across this idea as a side project because it turns out as a fellow lover of Svelte, we dont have enough UI libraries.
 
 I will clean & refactor the code once all the components are done.
 
